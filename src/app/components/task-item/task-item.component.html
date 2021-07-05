@@ -1,4 +1,8 @@
-<div class="task">
+<div 
+[ngClass]="{ reminder: task.reminder }"
+class="task"
+(click)="toggleReminder(task)"
+>
     <p>{{task.text}}</p>
     <p>{{task.time}}</p>
     <app-button 

@@ -8,10 +8,14 @@ import Task from "../../Task";
 export class TaskItemComponent implements OnInit {
   @Input() task!: Task;
   @Output() onDelete: EventEmitter<Task> = new EventEmitter();
+  @Output() onReminder: EventEmitter<Task> = new EventEmitter();
 
   constructor() { }
   deleteTask(task: Task) {
     this.onDelete.emit(task)
+  }
+  toggleReminder(task: Task): void {
+    this.onReminder.emit(task)
   }
   ngOnInit(): void {
   }
