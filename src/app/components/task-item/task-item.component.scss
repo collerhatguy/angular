@@ -1,3 +1,17 @@
+.task {
+    text-align: center;
+    width: 100%;
+    margin: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px black dotted;
+    h3, p {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+
+}
 .reminder {
-    background-color: blue;
+    border: 2px blue solid;
 }

@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    input[type="submit"] {
+        width: min-content;
+        padding: 1rem 2rem;
+        margin: 0 auto;
+    }
+}
+.form-control {
+    width: 80%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    label, input {
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+    input {
+        width: max-content;
+        display: inline-flex;
+    }
+}

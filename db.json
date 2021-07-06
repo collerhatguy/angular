@@ -1,24 +1,6 @@
 {
   "tasks": [
     {
-      "id": 5,
-      "text": "23234",
-      "time": "aojnfw",
-      "reminder": false
-    },
-    {
-      "id": 3,
-      "text": "23234",
-      "time": "aojnfw",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "23234",
-      "time": "aojnfw",
-      "reminder": false
-    },
-    {
       "id": 1,
       "text": "23234",
       "time": "aojnfw",
